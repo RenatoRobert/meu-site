@@ -1,0 +1,77 @@
+.hero__title {
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/471/339/desktop-wallpaper-a-torii-gate-in-the-japanese-sea-torii-gate.jpg");
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 10REM;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0%;
+    margin-inline-end: 0%;
+    
+}
+
+.hero {
+    object-fit: cover;
+    min-height: 30vh;
+}
+
+.hero__foreground {
+    color: var(--color-white);
+    padding-top: 40vh;
+    text-align: left;
+}
+
+body {
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/471/339/desktop-wallpaper-a-torii-gate-in-the-japanese-sea-torii-gate.jpg");
+    background: #0c000c;
+    color: #fdf5f5;
+    font-family: serif;
+    width: 100%;
+
+}
+
+.section_image {
+    border-radius: 10%;
+    background-size: cover;
+    float: inline-start;
+    margin: 1rem;
+    
+}
+
+
+
+.section {
+    margin-top: 5rem;
+    padding: 10pixel;
+    margin: 5rem;
+    text-align: center;
+}
+
+footer {
+margin-top: 20rem;
+padding: 2rem;
+text-align: center;
+
+}
+  
+.textj {
+    padding: 4rem;
+    color: aquamarine;
+}
+
+@media screen and (max-width: 768px) {
+    .section, inside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero__title {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
